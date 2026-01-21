@@ -24,7 +24,7 @@ public class ReadValue {
 			int cellCount = row.getPhysicalNumberOfCells();
 			for(int j=0;j<cellCount;j++) {
 				Cell cell = row.getCell(j);
-				System.out.print(cell+"\n");
+				System.out.print(cell+"\t\t");
 				
 			}
 		}
